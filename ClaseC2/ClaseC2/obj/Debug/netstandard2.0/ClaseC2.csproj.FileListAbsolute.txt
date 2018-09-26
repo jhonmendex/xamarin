@@ -1,0 +1,9 @@
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\bin\Debug\netstandard2.0\ClaseC2.deps.json
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\bin\Debug\netstandard2.0\ClaseC2.dll
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\bin\Debug\netstandard2.0\ClaseC2.pdb
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\obj\Debug\netstandard2.0\ClaseC2.csprojAssemblyReference.cache
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\obj\Debug\netstandard2.0\ClaseC2.csproj.CoreCompileInputs.cache
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\obj\Debug\netstandard2.0\ClaseC2.AssemblyInfoInputs.cache
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\obj\Debug\netstandard2.0\ClaseC2.AssemblyInfo.cs
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\obj\Debug\netstandard2.0\ClaseC2.dll
+C:\Users\Jhon\Documents\Visual Studio 2017\Projects\ClaseC2\ClaseC2\ClaseC2\obj\Debug\netstandard2.0\ClaseC2.pdb

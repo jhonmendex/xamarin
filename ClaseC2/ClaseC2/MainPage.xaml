@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ClaseC2"
+             x:Class="ClaseC2.MainPage">
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical"  Padding="10" BackgroundColor="#3B5998">
+            <StackLayout Padding="20" BackgroundColor="#ffffe57f">
+                <StackLayout Padding="30" Margin="0, 0, 0, 0" BackgroundColor="#fff">
+                    <Button Text="EJEMPLO SLIDERS" Clicked="sliders" BackgroundColor="#fd5151"  TextColor="#fff"  FontSize="Small" />
+                    <Button Text="EJEMPLO GRID" Clicked="grid"   TextColor="Black" FontSize="Small"/>
+                    <Button Text="EJEMPLO BOXLAYOUT" Clicked="boxLayout"   TextColor="White" BackgroundColor="Green" FontSize="Small"/>
+                    <Button Text="EJEMPLO BOXLAYOUT" Clicked="boxLayout"   TextColor="White" BackgroundColor="Blue" FontSize="Small"/>
+                    <Button Text="EJEMPLO DICCIONARIO" Clicked="diccionario"   TextColor="Black" BackgroundColor="White" FontSize="Small"/>
+                    <Button Text="EJEMPLO ABSOLUTE LAYOUT" Clicked="absoluteLayout"   TextColor="Black"
+                BackgroundColor="Pink" FontSize="Small"/>
+                    <Button Text="EJEMPLO RELATIVE LAYOUT" Clicked="relativeLayout"   TextColor="Black" BackgroundColor="Red" FontSize="Small"/>
+                    <Button Text="EJEMPLO SCROLL" Clicked="scrollLayout"   TextColor="White" BackgroundColor="#000" FontSize="Small"/>
+                    <Button Text="EJEMPLOS ANIMACION" Clicked="animations"   TextColor="White" BackgroundColor="#f27c21" FontSize="Small"/>
+                    <Button Text="EJEMPLOS ESTILOS" Clicked="estilos" TextColor="White" BackgroundColor="#2BB6B0" FontSize="Small"/>
+                    <Button Text="EJEMPLO CARUSEL" TextColor="White" BackgroundColor="#2BB6BB" FontSize="Small"/>
+                    <Entry Placeholder="Usuario" x:Name="usuraioTxt" />
+                    <Button Text="ingresar" Clicked="ingresarBtn" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

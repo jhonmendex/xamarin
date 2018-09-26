@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Estilos.Estilos">
+  <!--Pages can be added as references or inline-->
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelRedStyle" TargetType="Label">
+                <Setter Property="HorizontalOptions"
+                        Value="Center" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+            <Style x:Key="labelGreenStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="Green" />
+            </Style>
+            <Style x:Key="labelBlueStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="Blue" />
+            </Style>
+            <Style x:Key="stackl" TargetType="StackLayout">
+                <Setter Property="Padding" Value="50" />
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="BackgroundColor" Value="Yellow" />
+                <Setter Property="FontAttributes" Value="Italic" />
+                <Setter Property="TextColor" Value="Blue" />
+            </Style>
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+    <ContentPage Title="Tab 1">
+        <StackLayout  Style="{StaticResource stackl}" >
+             <Label Text="These labels"
+                   Style="{StaticResource labelRedStyle}" />
+        <Label Text="are demonstrating"
+                   Style="{StaticResource labelGreenStyle}" />
+        </StackLayout>
+       
+    </ContentPage>
+    
+    <ContentPage Title="Tab 2">
+        <StackLayout  Style="{StaticResource stackl}">
+           <Label Text="explicit styles,"
+                   Style="{StaticResource labelBlueStyle}" /> 
+        </StackLayout>
+        
+    </ContentPage>
+    <ContentPage Title="Tab 3">
+        <StackLayout  Style="{StaticResource stackl}">
+            <Label Text="and an explicit style override"
+                   Style="{StaticResource labelBlueStyle}"
+                   TextColor="Teal" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Ejemplo de estilos implicitos">
+        <StackLayout  Style="{StaticResource stackl}">
+            <Entry Text="LOS ESTILOS IMPLÍCITOS"/>
+            <Entry Text="SE"/>
+            <Entry Text="USAN "/>
+            <Entry Text="DE MANERA GENÉRICA"/>
+            <Entry Text="PARA TODOS LOS"/>
+            <Entry Text="ELEMENTOS"/>
+            <Entry Text="VISUALES"/>
+            <Entry Text="A MENOS QUE SE A DE TIPO EXPLÍCITO" Style="{StaticResource labelBlueStyle}"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
+ 
+   
+ 

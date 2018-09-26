@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutScroll.ScrollLayout">
+    <ContentPage.Content>
+        <ScrollView x:Name="miScroll">
+            <StackLayout>
+                <Button Text="Bajar" Clicked="scroll_btn" />
+                <BoxView BackgroundColor="Red" HeightRequest="1200" WidthRequest="150" />
+                <Entry Placeholder="entry" />
+                <BoxView BackgroundColor="Yellow" HeightRequest="200" WidthRequest="150" />
+            </StackLayout>
+        </ScrollView> 
+    </ContentPage.Content>
+</ContentPage>
